@@ -189,6 +189,9 @@ jQuery(document).ready(function($) {
 			dots: true,
 	    autoplay: true,
 	    pauseOnHover: false,
+	    touch: true,
+	    touchDrag: true,
+	    mouseDrag: true,
 	    onDragged: function(event) {
 	    	console.log('event : ',event.relatedTarget['_drag']['direction'])
 	    	if ( event.relatedTarget['_drag']['direction'] == 'left') {

@@ -2057,6 +2057,35 @@ h1, h2, h3, h4, h5,
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
 }
 
+@media (max-width: 320px) {
+  /* Ultra Small Screens (Mobile Phones) */
+  .box-92819 h1 {
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1rem !important; }
+  
+  .box-92819 p {
+    font-size: 12px !important; }
+  
+  h1, .h1 {
+    font-size: 20px !important; }
+  
+  h2, .h2 {
+    font-size: 18px !important; }
+  
+  h3, .h3 {
+    font-size: 16px !important; }
+  
+  .site-section {
+    padding: 15px 0 !important; }
+  
+  .feature-29192 {
+    min-height: 150px !important; }
+  
+  .text-cursive {
+    font-size: 16px !important; }
+}
+
 @media (max-width: 576px) {
   /* Extra Small Screens */
   .box-92819 h1 {
